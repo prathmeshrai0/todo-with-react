@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body{
+  background-color: rgb(46, 46, 46);
+  color:  white;
+}
+
+button{
+
+  background-color: rgb(39, 39, 39)
+  
+}
+button:hover{
+  border: 1px solid white;
+}
+/* custom global classes  */
+button{
+  @apply cursor-pointer rounded-sm  font-bold  p-2 flex justify-center items-center size-10 w-fit min-w-10;
+}
